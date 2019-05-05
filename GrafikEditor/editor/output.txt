@@ -1,0 +1,24 @@
+
+
+==========================================================
+ Meta information for MiniLib application                 
+------------------------+---------------------------------
+ Class hierarchy        | Number of dynamic objects       
+                        +---------+---------+-------------
+                        | created | deleted | still alive 
+------------------------+---------+---------+-------------
+ Object                 |       0 |       0 |           0
+   Application          |       0 |       0 |           0
+     DrawApp            |       0 |       0 |           0
+   Collection           |       0 |       0 |           0
+     Vector             |       1 |       1 |           0
+   Window               |       0 |       0 |           0
+     DrawWindow         |       6 |       6 |           0
+   Iterator             |       0 |       0 |           0
+     VectorIterator     |   30336 |   30336 |           0
+   Shape                |       0 |       0 |           0
+     Line               |     156 |     156 |           0
+------------------------+---------+---------+-------------
+ Number of classes: 11  | Summary: all objects deleted
+==========================================================
+

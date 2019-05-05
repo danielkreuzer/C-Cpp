@@ -1,0 +1,51 @@
+*Compare file1 with file2
+------ COMPARE REPORT ------
+- Nr. of words in file1: 
+- - 20725
+- Nr. of words in file2: 
+- - 32631
+- Sum of words in both files: 
+- - 53356
+- Nr. of equal words: 
+- - 11568
+- Percentage of equal words to sum of words:
+- - - 43.3616% = equality key figure
+
+*Compare file2 with file1
+------ COMPARE REPORT ------
+- Nr. of words in file1: 
+- - 32631
+- Nr. of words in file2: 
+- - 20725
+- Sum of words in both files: 
+- - 53356
+- Nr. of equal words: 
+- - 11568
+- Percentage of equal words to sum of words:
+- - - 43.3616% = equality key figure
+
+*Compare file2 with file2
+------ COMPARE REPORT ------
+- Nr. of words in file1: 
+- - 32631
+- Nr. of words in file2: 
+- - 32631
+- Sum of words in both files: 
+- - 65262
+- Nr. of equal words: 
+- - 32631
+- Percentage of equal words to sum of words:
+- - - 100% = equality key figure
+
+*Compare file1 with file1
+------ COMPARE REPORT ------
+- Nr. of words in file1: 
+- - 20725
+- Nr. of words in file2: 
+- - 20725
+- Sum of words in both files: 
+- - 41450
+- Nr. of equal words: 
+- - 20725
+- Percentage of equal words to sum of words:
+- - - 100% = equality key figure

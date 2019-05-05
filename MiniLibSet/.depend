@@ -1,0 +1,4 @@
+main.o: main.cpp set.hpp ../MiniLib/MLCollection.h ../MiniLib/MLObject.h \
+ ../MiniLib/MetaInfo.h ../MiniLib/MLString.h
+set.o: set.cpp set.hpp ../MiniLib/MLCollection.h ../MiniLib/MLObject.h \
+ ../MiniLib/MetaInfo.h

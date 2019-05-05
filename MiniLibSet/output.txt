@@ -1,0 +1,68 @@
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 }
+Item4Set1 in l: true
+Item2Set1 in l: true
+Item3Set1 in l: true
+Item1Set1 in l: true
+Item5Set1 in l: false
+Item1Set1 in s6: true
+Try to add s6 with value "s1" again
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 }, expected: same list as in beginning
+
+Test difference
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } \ Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Difference: Set with 3 Elements: { Item4Set1, Item2Set1, Item3Set1 }
+
+Test intersection
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } /\ Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Intersection: Set with 1 Elements: { Item1Set1 }
+
+Test union
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } \/ Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Union: Set with 7 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+
+Test symmetric difference
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } + Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Symmetric difference: Set with 6 Elements: { Item4Set1, Item2Set1, Item3Set1, Item2Set2, Item3Set2, Item4Set2 }
+
+Test includes
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } includes Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Includes: false
+
+Test includes
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } includes Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 }
+Includes: true
+
+Test merge in first set
+Set with 4 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1 } \/ Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+Merged first List: Set with 7 Elements: { Item4Set1, Item2Set1, Item3Set1, Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+
+removed: Item4Set1 remaining Set with 6 Elements: { Item2Set1, Item3Set1, Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+removed: Item2Set1 remaining Set with 5 Elements: { Item3Set1, Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+removed: Item3Set1 remaining Set with 4 Elements: { Item1Set1, Item2Set2, Item3Set2, Item4Set2 }
+removed: Item1Set1 remaining Set with 3 Elements: { Item2Set2, Item3Set2, Item4Set2 }
+tried to remove: Item5Set1 but is not in list
+tried to remove: Item1Set1 but is not in list
+removed: Item2Set2 remaining Set with 2 Elements: { Item3Set2, Item4Set2 }
+removed: Item3Set2 remaining Set with 1 Elements: { Item4Set2 }
+removed: Item4Set2 remaining Set with 0 Elements: {  }
+tried to remove: Item5Set2 but is not in list
+
+
+==========================================================
+ Meta information for MiniLib application                 
+------------------------+---------------------------------
+ Class hierarchy        | Number of dynamic objects       
+                        +---------+---------+-------------
+                        | created | deleted | still alive 
+------------------------+---------+---------+-------------
+ Object                 |       0 |       0 |           0
+   Collection           |       0 |       0 |           0
+     Set                |       4 |       4 |           0
+   String               |       0 |       0 |           0
+   Iterator             |       0 |       0 |           0
+     Set::SetIterator   |     124 |     124 |           0
+   Set::Node            |      28 |      28 |           0
+------------------------+---------+---------+-------------
+ Number of classes:  7  | Summary: all objects deleted
+==========================================================
+

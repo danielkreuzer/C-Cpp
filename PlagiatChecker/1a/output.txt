@@ -1,0 +1,51 @@
+*Compare file1 with file2
+------ COMPARE REPORT ------
+- Nr. of used words in file1: 
+- - 4264
+- Nr. of used words in file2: 
+- - 5435
+- Sum of used words in both files: 
+- - 8340
+- Nr. of equal words: 
+- - 1359
+- Percentage of equal words to sum of words:
+- - - 16.295% = equality key figure
+
+*Compare file2 with file1
+------ COMPARE REPORT ------
+- Nr. of used words in file1: 
+- - 5435
+- Nr. of used words in file2: 
+- - 4264
+- Sum of used words in both files: 
+- - 8340
+- Nr. of equal words: 
+- - 1359
+- Percentage of equal words to sum of words:
+- - - 16.295% = equality key figure
+
+*Compare file2 with file2
+------ COMPARE REPORT ------
+- Nr. of used words in file1: 
+- - 5435
+- Nr. of used words in file2: 
+- - 5435
+- Sum of used words in both files: 
+- - 5435
+- Nr. of equal words: 
+- - 5435
+- Percentage of equal words to sum of words:
+- - - 100% = equality key figure
+
+*Compare file1 with file1
+------ COMPARE REPORT ------
+- Nr. of used words in file1: 
+- - 4264
+- Nr. of used words in file2: 
+- - 4264
+- Sum of used words in both files: 
+- - 4264
+- Nr. of equal words: 
+- - 4264
+- Percentage of equal words to sum of words:
+- - - 100% = equality key figure

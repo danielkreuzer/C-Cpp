@@ -1,0 +1,4 @@
+main.o: main.cpp bag.hpp ../MiniLib/MLCollection.h ../MiniLib/MLObject.h \
+ ../MiniLib/MetaInfo.h ../MiniLib/MLString.h
+bag.o: bag.cpp bag.hpp ../MiniLib/MLCollection.h ../MiniLib/MLObject.h \
+ ../MiniLib/MetaInfo.h

@@ -1,0 +1,4 @@
+row.o: row.cpp
+column.o: column.cpp
+myprog.o: myprog.cpp matrix.hpp row.hpp column.hpp includes.hpp
+matrix.o: matrix.cpp

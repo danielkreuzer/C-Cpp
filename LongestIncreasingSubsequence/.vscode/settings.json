@@ -1,0 +1,11 @@
+{
+    "C_Cpp.intelliSenseEngine": "Default",
+    "C_Cpp.errorSquiggles": "Disabled",
+    
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/c", "msyssh"].
+
+    "files.associations": {
+        "stdlib.h": "c"
+    }
+}

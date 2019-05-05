@@ -1,0 +1,2 @@
+main.o: main.cpp string_tree.hpp string_treenode.hpp tree.hpp \
+ treenode.hpp obj.hpp

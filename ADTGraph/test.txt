@@ -1,0 +1,86 @@
+
+ Test copy on node only, copied first_layer_one node: 
+first_layer_one
+--| secound_layer_two
+--| --| third_layer_two
+--| --| third_layer_one
+--| secound_layer_one
+--| --| third_layer_three
+--| secound_layer_three
+
+
+ instances: 15
+
+ Test Delete secound_layer_one from first_layer_one node: 
+first_layer_one
+--| secound_layer_two
+--| --| third_layer_two
+--| --| third_layer_one
+--| third_layer_three
+
+
+ instances: 14
+
+ proof that original first_layer_one is not changed, and copied without assign operator: 
+first_layer_one
+--| secound_layer_two
+--| --| third_layer_two
+--| --| third_layer_one
+--| secound_layer_one
+--| --| third_layer_three
+--| secound_layer_three
+
+
+ instances: 14
+
+ is tree empty?: true
+ is tree empty?: false
+ first tree: 
+root
+--| first_layer_one
+--| --| secound_layer_two
+--| --| --| third_layer_two
+--| --| --| third_layer_one
+--| --| secound_layer_one
+--| --| --| third_layer_three
+--| --| secound_layer_three
+
+ instances: 15
+
+ secound copied tree: 
+root
+--| first_layer_one
+--| --| secound_layer_two
+--| --| --| third_layer_two
+--| --| --| third_layer_one
+--| --| secound_layer_one
+--| --| --| third_layer_three
+--| --| secound_layer_three
+
+
+ instances: 32
+
+ secound copied tree with deleted secound_layer_two: 
+root
+--| first_layer_one
+--| --| third_layer_two
+--| --| third_layer_one
+--| --| secound_layer_one
+--| --| --| third_layer_three
+--| --| secound_layer_three
+
+
+ instances: 31
+
+ first tree again, proof that tree two is a deep copy: 
+root
+--| first_layer_one
+--| --| secound_layer_two
+--| --| --| third_layer_two
+--| --| --| third_layer_one
+--| --| secound_layer_one
+--| --| --| third_layer_three
+--| --| secound_layer_three
+
+
+ instanceslast: 31

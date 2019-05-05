@@ -1,0 +1,38 @@
+----------Test implementaion----------
+* Test if test1 empty
+true
+* Test insert & print test1
+3 5 6 
+* Test if test1 empty
+false
+* Test if 3 in test1
+true
+* Test if 10 in test1
+false
+* Test number of nodes in test1
+3
+* Test show front in test1
+3
+* Test show back in test1
+6
+* Test pop front and back and show test1 afterwards
+5 
+* Test insert & print test1
+3 5 6 
+* Test copy test1 in test2
+3 5 6 
+* Test copy test1 in test3 with assign operator
+3 5 6 
+* Test earase 5 in test1
+true
+3 6 
+* Test clear test1
+
+* Test if test1 empty
+true
+* Test if test2 empty (Should not be empty after deepcopy)
+false
+* Test if test3 empty (Should not be empty after deepcopy)
+false
+* Test insert & print test4 with custom compare function
+6 5 3 

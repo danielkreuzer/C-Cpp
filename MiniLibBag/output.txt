@@ -1,0 +1,47 @@
+Bag with 4 Elements: { s1, s2, s3, s4 }
+Bag contains: { 2x"s1" 2x"s2" 2x"s3" 2x"s4" } 
+
+s1 in l: true
+s2 in l: true
+s3 in l: true
+s4 in l: true
+s5 in l: false
+s1 in s6: false
+removed: s1 remaining Bag with 4 Elements: { s1, s2, s3, s4 }
+Bag contains: { 1x"s1" 2x"s2" 2x"s3" 2x"s4" } 
+removed: s2 remaining Bag with 4 Elements: { s1, s2, s3, s4 }
+Bag contains: { 1x"s1" 1x"s2" 2x"s3" 2x"s4" } 
+removed: s3 remaining Bag with 4 Elements: { s1, s2, s3, s4 }
+Bag contains: { 1x"s1" 1x"s2" 1x"s3" 2x"s4" } 
+removed: s4 remaining Bag with 4 Elements: { s1, s2, s3, s4 }
+Bag contains: { 1x"s1" 1x"s2" 1x"s3" 1x"s4" } 
+tried to remove: s5 but is not in list
+removed: s1 remaining Bag with 3 Elements: { s2, s3, s4 }
+Bag contains: { 1x"s2" 1x"s3" 1x"s4" } 
+removed: s2 remaining Bag with 2 Elements: { s3, s4 }
+Bag contains: { 1x"s3" 1x"s4" } 
+removed: s3 remaining Bag with 1 Elements: { s4 }
+Bag contains: { 1x"s4" } 
+removed: s4 remaining Bag with 0 Elements: {  }
+Bag contains: { } 
+tried to remove: s5 but is not in list
+
+
+==========================================================
+ Meta information for MiniLib application                 
+------------------------+---------------------------------
+ Class hierarchy        | Number of dynamic objects       
+                        +---------+---------+-------------
+                        | created | deleted | still alive 
+------------------------+---------+---------+-------------
+ Object                 |       0 |       0 |           0
+   Collection           |       0 |       0 |           0
+     Bag                |       0 |       0 |           0
+   String               |       0 |       0 |           0
+   Bag::Node            |       4 |       4 |           0
+   Iterator             |       0 |       0 |           0
+     Bag::BagIterator   |      24 |      24 |           0
+------------------------+---------+---------+-------------
+ Number of classes:  7  | Summary: all objects deleted
+==========================================================
+
